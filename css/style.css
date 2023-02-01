@@ -156,13 +156,11 @@ background-color:#000000;
 }
 
 .menu-footer li a{
-    color: #dad7cd;
+    color:#344e41;
 }
 
 
-
-
-
+/* Media query para dispositivos pequeños */
 @media (max-width: 425px) {
     .header-flex {
         display: grid;
@@ -174,39 +172,8 @@ background-color:#000000;
     .header-flex li {
         margin: 1rem;
     }
-
-    
-    
+}
 
 
 
 
-
-
-
-    
-
-    /* .header {
-        background-color: white;
-    }
-    .titulo-principal {
-        color: black;
-
-    }
-    .grid-padre {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(7, 20vh);
-        gap: 0px 0px;
-        height: 80vh;
-        grid-template-areas: 
-        "El-club-Protein-Bar"
-        "img-1"
-        "img-2"
-        "img-3"
-        "Prod-1"
-        "Prod-2"
-        "Prod-3"
-        ;
-    }  */
-    }
