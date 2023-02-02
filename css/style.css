@@ -109,14 +109,17 @@ transform: scale(1.2);
 /* MENÚ */
 .grid-padre { 
     display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 1fr 0.5fr 2fr 0.5fr;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: 1fr 1fr 1fr 1fr 0.2fr;
     gap: 0px 0px;
     grid-auto-flow: row;
+    background-image: linear-gradient(to bottom, #a3b18a, #dad7cd );
+    justify-items: center;
     grid-template-areas:
-    "Menú-1 Menú-2"
-    "Menú-1 Menú-2"
-    "Menú-1 Menú-2"
+    "Menú-1 Menú-1"
+    "Menú-1 Menú-1"
+    "Menú-2 Menú-2"
+    "Menú-2 Menú-2"
     "Hacer-pedido- Hacer-pedido-";
 }
 
@@ -128,10 +131,10 @@ background-color:white;}
 }
 
 .Menú-2 { grid-area: Menú-2;
-background-color: rgb(255, 255, 255); }
+background-color:white }
 
 .Hacer-pedido- { grid-area: Hacer-pedido-;
-background-color:#000000; 
+background-color: white;
 }
 
 .Hacer-pedido- {
@@ -140,9 +143,20 @@ background-color:#000000;
     flex-direction: column;
 }
 
-.Hacer-pedido- h3 {
-
+.Hacer-pedido- h3{
     color: #3a5a40;
+    background-color: #a3b18a;
+}
+.Hacer-pedido- a{
+    color: #3a5a40;
+}
+.Hacer-pedido- a:hover{
+    background-color:#a3b18a;
+    transform: scale(1.2);
+}
+
+.Hacer-pedido- {
+    background-color:#dad7cd
 }
 
 .footer-flex {
@@ -155,7 +169,7 @@ background-color:#000000;
 }
 
 .footer-flex h3 {
-    color:#dad7cd ;
+    color:#a3b18a ;
 }
 
 .footer-flex li {
@@ -163,7 +177,8 @@ background-color:#000000;
 }
 
 .menu-footer li a{
-    color:#dad7cd;
+    color:#a3b18a;
+    margin: 1rem;
 }
 .menu-footer li:hover{
     background-color:#3a5a40;

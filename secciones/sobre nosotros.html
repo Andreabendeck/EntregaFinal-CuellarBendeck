@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body> 
@@ -17,7 +21,7 @@
 
     <!-- Navegación -->
     <nav>
-        <ul>
+        <ul class="lista-menu">
             <li>
                 <a href="../secciones/menu.html">Menú</a>
             </li>
@@ -43,42 +47,28 @@
         <section class="productos-grid">
             <!-- <h3>Comida saludable y deliciosa</h3> -->
             <article class="producto1">
-                <div>
-    
-                </div>
-                <img src="../recursos/IMG_4672.jpg" alt="Ensalada">
+                <img class= "wow animate__animated animate__zoomIn"  src="../recursos/IMG_4672.jpg" alt="Ensalada">
             </article>
 
             <article class="producto2">
-                <img src="../recursos/Crepa.jpg" alt="Creps">
-                <div>
-                 
-                </div>
-                
-             </article>
-             <article class="producto3">
-                <img src="../recursos/Waffle.jpg" alt="Waffles">
-                <div>
-                
-                </div>
-                
-             </article>
+                <img class= "wow animate__animated animate__zoomIn" src="../recursos/Crepa.jpg" alt="Creps">
+            </article>
 
-             <article class="producto4">
-                <img src="../recursos/IMG_4698.jpg" alt="Batidos">
-                <div>
-                 
-                </div>
+            <article class="producto3">
+                <img class= "wow animate__animated animate__zoomIn" src="../recursos/Waffle.jpg" alt="Waffles">
+            </article>
 
-             </article>
+            <article class="producto4">
+                <img class= "wow animate__animated animate__zoomIn" src="../recursos/IMG_4698.jpg" alt="Batidos">
+            </article>
 
-             <article class="producto5">
-                <img src="../recursos/DSC_3672.JPG" alt="Personas">
-             </article>
+            <article class="producto5">
+                <img class= "wow animate__animated animate__zoomIn" src="../recursos/DSC_3672.JPG" alt="Personas">
+            </article>
 
-             <article class="producto6">
-                <img src="../recursos/Espacio frente.jpg" alt="Espacio">
-             </article>
+            <article class="producto6">
+                <img class= "wow animate__animated animate__zoomIn" src="../recursos/Espacio frente.jpg" alt="Espacio">
+            </article>
 
 
         </section>
@@ -101,4 +91,8 @@
     </footer>
     
 </body>
+<script src="../js/wow.js"></script>
+<script>
+    new WOW ().init();
+</script>
 </html>
