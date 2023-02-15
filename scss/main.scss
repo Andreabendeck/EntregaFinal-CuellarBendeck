@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import './secciones/header';
+@import './secciones/footer';
+@import './secciones/main-menú';
+@import './secciones/main-sobrenosotros';
+@import './secciones/main-contacto';
+@import './secciones/main-index';
+@import './secciones/main-faqs';
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500&family=Lato:ital,wght@0,300;0,700;1,400&family=Poppins:wght@300&display=swap');

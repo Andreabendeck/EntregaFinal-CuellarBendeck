@@ -1,0 +1,34 @@
+.header-flex {
+    background-image: linear-gradient(to top, #a3b18a, #dad7cd );
+}
+.header-flex {
+    height: 28vh;
+    background-color:#dad7cd;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+
+.header-flex ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-flex li {
+    margin: 2rem;
+}
+
+.header-flex a{
+    color: #3a5a40;
+}
+
+.lista-menu li:hover{
+    background-color:#a3b18a;
+    transform: scale(1.2);
+    }

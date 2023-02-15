@@ -1,0 +1,40 @@
+.titulo-somos {
+    height: 15vh;
+    color:#3a5a40 ;
+    text-align: center;
+    display: flex-end;
+    background-color:white;
+}
+
+/* Grilla de productos */
+.productos-grid {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.producto1 img {
+    width: 50vw;
+}
+
+.producto2 img {
+    width: 50vw;
+}
+
+.producto3 img {
+    width: 50vw;
+}
+.producto4 img {
+    width: 50vw;
+    
+}
+
+.producto5 img{
+    width: 50vw;
+}
+
+.producto6 img {
+    width: 50vw;
+}
+

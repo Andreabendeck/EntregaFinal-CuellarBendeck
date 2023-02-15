@@ -1,0 +1,183 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500&family=Lato:ital,wght@0,300;0,700;1,400&family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-flex {
+  background-image: linear-gradient(to top, #a3b18a, #dad7cd);
+}
+
+.header-flex {
+  height: 28vh;
+  background-color: #dad7cd;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.logo img {
+  width: 200px;
+  height: 200px;
+  display: flex;
+}
+
+.header-flex ul {
+  display: flex;
+  list-style: none;
+}
+
+.header-flex li {
+  margin: 2rem;
+}
+
+.header-flex a {
+  color: #3a5a40;
+}
+
+.lista-menu li:hover {
+  background-color: #a3b18a;
+  transform: scale(1.2);
+}
+
+.footer-flex {
+  background-image: linear-gradient(to bottom, rgba(88, 129, 87, 0.8431372549), #3a5a40);
+}
+
+.footer-flex ol {
+  display: flex;
+  list-style: none;
+}
+
+.footer-flex h3 {
+  color: #a3b18a;
+}
+
+.footer-flex li {
+  margin: 0.5rem;
+}
+
+.menu-footer li a {
+  color: #a3b18a;
+  margin: 1rem;
+}
+
+.menu-footer li:hover {
+  background-color: #3a5a40;
+  transform: scale(1.2);
+}
+
+MENÚ .grid-padre {
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-template-rows: 1fr 1fr 1fr 1fr 0.2fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  background-image: linear-gradient(to bottom, #a3b18a, #dad7cd);
+  justify-items: center;
+  grid-template-areas: "Menú-1 Menú-1" "Menú-1 Menú-1" "Menú-2 Menú-2" "Menú-2 Menú-2" "Hacer-pedido- Hacer-pedido-";
+}
+
+.Menú-1 {
+  grid-area: Menú-1;
+  background-color: white;
+}
+
+.clasicos {
+  width: 50vw;
+}
+
+.Menú-2 {
+  grid-area: Menú-2;
+  background-color: white;
+}
+
+.Hacer-pedido- {
+  grid-area: Hacer-pedido-;
+  background-color: white;
+}
+
+.Hacer-pedido- {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Hacer-pedido- h3 {
+  color: #3a5a40;
+  background-color: #a3b18a;
+}
+
+.Hacer-pedido- a {
+  color: #3a5a40;
+}
+
+.Hacer-pedido- a:hover {
+  background-color: #a3b18a;
+  transform: scale(1.2);
+}
+
+.Hacer-pedido- {
+  background-color: #dad7cd;
+}
+
+.titulo-somos {
+  height: 15vh;
+  color: #3a5a40;
+  text-align: center;
+  display: flex-end;
+  background-color: white;
+}
+
+/* Grilla de productos */
+.productos-grid {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.producto1 img {
+  width: 50vw;
+}
+
+.producto2 img {
+  width: 50vw;
+}
+
+.producto3 img {
+  width: 50vw;
+}
+
+.producto4 img {
+  width: 50vw;
+}
+
+.producto5 img {
+  width: 50vw;
+}
+
+.producto6 img {
+  width: 50vw;
+}
+
+.main-contacto {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.banner-hero {
+  background-image: url("../recursos/Espacio frente.jpg");
+  height: 130vh;
+  background-size: cover;
+}
+
+.banner-hero h2 {
+  text-align: center;
+  color: #3a5a40;
+  position: relative;
+  -moz-text-align-last: center;
+       text-align-last: center;
+  top: 8%;
+}/*# sourceMappingURL=main.css.map */
