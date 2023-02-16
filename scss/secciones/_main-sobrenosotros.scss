@@ -38,3 +38,48 @@
     width: 50vw;
 }
 
+
+/* Media query para dispositivos pequeños */
+@media (max-width: 425px) {
+    .header-flex {
+        display: grid;
+        align-content: center ;
+        height: 25vh;
+        justify-items: center;
+        
+    }
+    .header-flex li {
+        margin: 1rem;
+    }
+
+    .titulo-somos {
+        height: 17vh;
+    }
+
+    .productos-grid {
+        height: 48vh;
+    }
+
+    .grid-padre {
+        justify-items: center;
+        grid-template-areas:
+    "Menú-1"
+    "Menú-1"
+    "Menú-2"
+    "Menú-2"
+    "Hacer-pedido-";
+    }
+
+    .Menú-1 img {
+        width: 90vw;
+        height: 50vh;
+    }
+    .Menú-2 img {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .footer-flex {
+        height: 10vh;
+    }
+}
