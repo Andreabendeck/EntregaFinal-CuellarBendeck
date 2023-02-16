@@ -68,7 +68,16 @@
   transform: scale(1.2);
 }
 
-MENÚ .grid-padre {
+.redes {
+  font-size: 25px;
+}
+
+/*Menú*/
+.grid-main {
+  display: flex;
+}
+
+.grid-padre {
   display: grid;
   grid-template-columns: repeat(1, 100%);
   grid-template-rows: 1fr 1fr 1fr 1fr 0.2fr;
@@ -90,7 +99,6 @@ MENÚ .grid-padre {
 
 .Menú-2 {
   grid-area: Menú-2;
-  background-color: white;
 }
 
 .Hacer-pedido- {
@@ -180,4 +188,9 @@ MENÚ .grid-padre {
   -moz-text-align-last: center;
        text-align-last: center;
   top: 8%;
+}
+
+.accordion {
+  max-width: 75vw;
+  margin: auto;
 }/*# sourceMappingURL=main.css.map */

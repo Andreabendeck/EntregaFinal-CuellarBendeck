@@ -1,11 +1,15 @@
-MENÚ
+/*Menú*/
+.grid-main {
+    display: flex;
+    background-image:  linear-gradient(to bottom,#a3b18a, #dad7cd );
+    flex-direction: column;
+}
 .grid-padre { 
     display: grid;
     grid-template-columns: repeat(1, 100%);
     grid-template-rows: 1fr 1fr 1fr 1fr 0.2fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    background-image: linear-gradient(to bottom,#a3b18a, #dad7cd );
     justify-items: center;
     grid-template-areas:
     "Menú-1 Menú-1"
@@ -15,15 +19,13 @@ MENÚ
     "Hacer-pedido- Hacer-pedido-";
 }
 
-.Menú-1 { grid-area: Menú-1; 
-background-color:white;}
+.Menú-1 { grid-area: Menú-1; }
 
 .clasicos {
     width: 50vw;
 }
 
-.Menú-2 { grid-area: Menú-2;
-background-color:white }
+.Menú-2 { grid-area: Menú-2;}
 
 .Hacer-pedido- { grid-area: Hacer-pedido-;
 background-color: white;

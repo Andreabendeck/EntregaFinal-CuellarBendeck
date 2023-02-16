@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*Resources*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500&family=Lato:ital,wght@0,300;0,700;1,400&family=Poppins:wght@300&display=swap");
 * {
   margin: 0;
@@ -34,7 +35,8 @@
   transform: scale(1.2); }
 
 .footer-flex {
-  background-image: linear-gradient(to bottom, #588157d7, #3a5a40); }
+  background-image: linear-gradient(to bottom, #588157d7, #3a5a40);
+  min-height: auto; }
 
 .footer-flex ol {
   display: flex;
@@ -57,27 +59,29 @@
 .redes {
   font-size: 25px; }
 
-MENÚ
+/*Menú*/
+.grid-main {
+  display: flex;
+  background-image: linear-gradient(to bottom, #a3b18a, #dad7cd);
+  flex-direction: column; }
+
 .grid-padre {
   display: grid;
   grid-template-columns: repeat(1, 100%);
   grid-template-rows: 1fr 1fr 1fr 1fr 0.2fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  background-image: linear-gradient(to bottom, #a3b18a, #dad7cd);
   justify-items: center;
   grid-template-areas: "Menú-1 Menú-1" "Menú-1 Menú-1" "Menú-2 Menú-2" "Menú-2 Menú-2" "Hacer-pedido- Hacer-pedido-"; }
 
 .Menú-1 {
-  grid-area: Menú-1;
-  background-color: white; }
+  grid-area: Menú-1; }
 
 .clasicos {
   width: 50vw; }
 
 .Menú-2 {
-  grid-area: Menú-2;
-  background-color: white; }
+  grid-area: Menú-2; }
 
 .Hacer-pedido- {
   grid-area: Hacer-pedido-;
@@ -152,4 +156,11 @@ MENÚ
 
 .accordion {
   max-width: 75vw;
-  margin: auto; }
+  margin: auto;
+  height: 90vh; }
+
+.main-faqs {
+  background-image: linear-gradient(to bottom, #a3b18a, #dad7cd); }
+
+.--bs-accordion-transition {
+  color: #dad7cd; }
