@@ -2,4 +2,34 @@
     display: flex;
     align-content: center;
     justify-content: center;
+    align-items: center;
+    background-color:#dad7cd;
+    height: 75vh;
 }
+
+.main-contacto{
+    @extend .header-flex
+}
+
+.grid-contacto {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "Horario Horario"
+    "Formulario Mapa";
+}
+
+.Horario { grid-area: Horario; 
+text-align: center;
+color: #3a5a40;
+}
+
+.Formulario { grid-area: Formulario; 
+}
+
+.Mapa { grid-area: Mapa; }
+
+
+

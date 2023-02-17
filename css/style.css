@@ -14,10 +14,10 @@ font-family: 'Poppins', sans-serif; */
   margin: 0;
   padding: 0; }
 
-.header-flex {
+.header-flex, .main-contacto {
   background-image: linear-gradient(to top, #a3b18a, #dad7cd); }
 
-.header-flex {
+.header-flex, .main-contacto {
   height: 28vh;
   background-color: #dad7cd;
   display: flex;
@@ -29,14 +29,14 @@ font-family: 'Poppins', sans-serif; */
   height: 200px;
   display: flex; }
 
-.header-flex ul {
+.header-flex ul, .main-contacto ul {
   display: flex;
   list-style: none; }
 
-.header-flex li {
+.header-flex li, .main-contacto li {
   margin: 2rem; }
 
-.header-flex a {
+.header-flex a, .main-contacto a {
   color: #3a5a40; }
 
 .lista-menu li:hover {
@@ -45,7 +45,7 @@ font-family: 'Poppins', sans-serif; */
 
 .footer-flex {
   background-image: linear-gradient(to bottom, #588157d7, #3a5a40);
-  min-height: auto; }
+  min-height: 15vh; }
 
 .footer-flex ol {
   display: flex;
@@ -148,12 +148,12 @@ font-family: 'Poppins', sans-serif; */
 
 /* Media query para dispositivos pequeños */
 @media (max-width: 425px) {
-  .header-flex {
+  .header-flex, .main-contacto {
     display: grid;
     align-content: center;
     height: 25vh;
     justify-items: center; }
-  .header-flex li {
+  .header-flex li, .main-contacto li {
     margin: 1rem; }
   .titulo-somos {
     height: 17vh; }
@@ -174,7 +174,29 @@ font-family: 'Poppins', sans-serif; */
 .main-contacto {
   display: flex;
   align-content: center;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center;
+  background-color: #dad7cd;
+  height: 75vh; }
+
+.grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "Horario Horario" "Formulario Mapa"; }
+
+.Horario {
+  grid-area: Horario;
+  text-align: center;
+  color: #3a5a40; }
+
+.Formulario {
+  grid-area: Formulario; }
+
+.Mapa {
+  grid-area: Mapa; }
 
 .banner-hero {
   background-image: url("../recursos/Espacio frente.jpg");
