@@ -4,6 +4,7 @@
     text-align: center;
     display: flex-end;
     background-color:white;
+    padding: 10px;
 }
 
 /* Grilla de productos */
@@ -36,6 +37,10 @@
 
 .producto6 img {
     width: 50vw;
+}
+
+.nuestrosproductos {
+    @extend .titulo-somos
 }
 
 

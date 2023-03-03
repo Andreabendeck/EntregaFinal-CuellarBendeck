@@ -18,11 +18,11 @@ font-family: 'Poppins', sans-serif; */
   background-image: linear-gradient(to top, #a3b18a, #dad7cd); }
 
 .header-flex, .main-contacto {
-  height: 28vh;
+  height: 18vh;
   background-color: #dad7cd;
   display: flex;
   flex-direction: row;
-  align-items: flex-end; }
+  align-items: center; }
 
 .logo img {
   width: 200px;
@@ -115,12 +115,13 @@ font-family: 'Poppins', sans-serif; */
 .Hacer-pedido- {
   background-color: #dad7cd; }
 
-.titulo-somos {
+.titulo-somos, .nuestrosproductos {
   height: 15vh;
   color: #3a5a40;
   text-align: center;
   display: flex-end;
-  background-color: white; }
+  background-color: white;
+  padding: 10px; }
 
 /* Grilla de productos */
 .productos-grid {
@@ -155,7 +156,7 @@ font-family: 'Poppins', sans-serif; */
     justify-items: center; }
   .header-flex li, .main-contacto li {
     margin: 1rem; }
-  .titulo-somos {
+  .titulo-somos, .nuestrosproductos {
     height: 17vh; }
   .productos-grid {
     height: 48vh; }
@@ -201,14 +202,15 @@ font-family: 'Poppins', sans-serif; */
 .banner-hero {
   background-image: url("../recursos/Espacio frente.jpg");
   height: 130vh;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
 
 .banner-hero h2 {
   text-align: center;
   color: #3a5a40;
   position: relative;
   text-align-last: center;
-  top: 8%; }
+  top: 6%; }
 
 .accordion {
   max-width: 75vw;
