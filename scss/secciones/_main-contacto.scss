@@ -34,5 +34,17 @@ color: #3a5a40;
 
 .Mapa { grid-area: Mapa; }
 
+/* Media query para dispositivos pequeños */
+@media (max-width: 650px) {
+    .grid-contacto {
+        justify-items: center;
+        grid-template-areas: 
+        "Horario"
+        "Formulario"
+        "Mapa";
+
+    }
+}
+
 
 
