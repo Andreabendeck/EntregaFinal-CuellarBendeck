@@ -288,7 +288,6 @@ li a.active, li a:hover {
   color: #3a5a40; }
 
 .banner-hero, .card-final {
-  /* background-image:url("../recursos/Espacio\ frente.jpg"); */
   background-color: whitesmoke;
   height: 12vh;
   background-size: cover;
