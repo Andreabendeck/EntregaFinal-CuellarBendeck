@@ -10,9 +10,6 @@
 font-family: 'Lato', sans-serif;
 font-family: 'Poppins', sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500&family=Lato:ital,wght@0,300;0,700;1,400&family=Poppins:wght@300&display=swap");
-* {
-  margin: 0;
-  padding: 0; }
 
 * {
   padding: 0;
@@ -154,7 +151,11 @@ li a.active, li a:hover {
   gap: 0px 0px;
   grid-auto-flow: row;
   justify-items: center;
-  grid-template-areas: "Menú-1 Menú-1" "Menú-1 Menú-1" "Menú-2 Menú-2" "Menú-2 Menú-2" "Hacer-pedido- Hacer-pedido-"; }
+  grid-template-areas: "Menú-1 Menú-1"
+ "Menú-1 Menú-1"
+ "Menú-2 Menú-2"
+ "Menú-2 Menú-2"
+ "Hacer-pedido- Hacer-pedido-"; }
 
 .Menú-1 {
   grid-area: Menú-1; }
@@ -235,7 +236,11 @@ li a.active, li a:hover {
     height: 48vh; }
   .grid-padre {
     justify-items: center;
-    grid-template-areas: "Menú-1" "Menú-1" "Menú-2" "Menú-2" "Hacer-pedido-"; }
+    grid-template-areas: "Menú-1"
+ "Menú-1"
+ "Menú-2"
+ "Menú-2"
+ "Hacer-pedido-"; }
   .Menú-1 img {
     width: 90vw;
     height: 50vh; }
@@ -265,7 +270,8 @@ li a.active, li a:hover {
   grid-template-rows: 0.5fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "Horario Horario" "Formulario Mapa"; }
+  grid-template-areas: "Horario Horario"
+ "Formulario Mapa"; }
 
 .Horario {
   grid-area: Horario;
