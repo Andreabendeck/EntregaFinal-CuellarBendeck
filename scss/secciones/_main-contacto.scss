@@ -8,7 +8,10 @@
 }
 
 .main-contacto{
-    @extend .header-flex
+    background-color:#dad7cd;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
 }
 
 .grid-contacto {  display: grid;

@@ -1,15 +1,24 @@
+.carousel-caption {
+    color: #3a5a40 ;
+}
+
+.card-final {
+    @extend .banner-hero
+}
+
 .banner-hero{
-    background-image:url("../recursos/Espacio\ frente.jpg");
-    height: 130vh;
+   /* background-image:url("../recursos/Espacio\ frente.jpg"); */
+    background-color: whitesmoke;
+    height: 12vh;
     background-size:cover; 
     background-position: center;
-}
+} 
 
 .banner-hero h2 {
     text-align: center;
     color:#3a5a40;
     position:relative;
     text-align-last: center;
-    top: 6%;
+    top: 22%;
     
 }

@@ -12,41 +12,77 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    
     <title>El Club Protein Bar</title>
+
 </head>
 <body>
+
     <!-- Encabezado -->
-    <header class="header-flex">
-        <!-- logo -->
-        <div class="logo">
-        <a href="../index.html">
-            <img class= "wow animate__animated animate__fadeInDown" src="./recursos/Logo El club .png" alt="logo">
-        </a> 
-        </div>
-        
-        <!-- Navegación -->
+    <header>
+
         <nav>
-            <ul class="lista-menu">
-                <li>
-                    <a href="./secciones/menu.html">Menú</a>
-                </li>
-                <li>
-                    <a href="./secciones/sobre nosotros.html">Sobre nosotros</a>
-                </li>
-                <li>
-                    <a href="./secciones/FAQ´s.html">FAQ´s</a>
-                </li>
-                <li>
-                    <a href="./secciones/contacto.html">Contacto</a>
-                </li>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <a href="../index.html" class="enlace">
+                <img src="../recursos/Logo El club .png" alt="Logo" class="logo animate__animated animate__fadeInDown">
+            </a>
+    
+            <ul>
+            <li><a class="active" href="../secciones/menu.html">MENÚ|</a></li>
+            <li><a href="../secciones/sobre nosotros.html">NOSOTROS|</a></li>
+            <li><a href="../secciones/FAQ´s.html">FAQs|</a></li>
+            <li><a href="../secciones/contacto.html">CONTACTO|</a></li>
             </ul>
         </nav>
+
     </header>
 
-    <main>
+    <main class="main-index">
         <section class="banner-hero">
-            <h2 class= "animate__animated animate__fadeInUp"> EL CLUB PROTEIN BAR </h2>
-            <h2 class= "animate__animated animate__fadeInUp">¡Un lugar para todos!</h2>
+            
+        </section>
+
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <div class="carousel-caption caption-center">
+                    <h2 class= "animate__animated animate__fadeInUp"> EL CLUB PROTEIN BAR </h2>
+                    <h2 class= "animate__animated animate__fadeInUp">¡Un lugar para todos!</h2>
+                </div>
+                <img src="../recursos/Espacio frente.jpg" class="d-block w-100" alt="Espacio">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-caption caption-center">
+                    <h2 class= "animate__animated animate__fadeInUp bg-light bg-opacity-50">¿Conocés todas nuestras opciones?</h2>
+                    <a style="color: #3a5a40;" class="bg-light bg-opacity-50"  href="./secciones/menu.html"> VER MENÚ</a>
+                </div>
+                <img src="./recursos/DSC_4136.JPG" class="d-block w-100" alt="Ensalada">
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption caption-center ">
+                    <h2 class=" animate__animated animate__fadeInUp bg-light bg-opacity-50">¡Todos los jueves promo en tazones, uno de los favoritos!
+                    </h2>
+                </div>
+                <img src="../recursos/tazon.jpg" class="d-block w-100" alt="tazon">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <section class="card-final">
+            
         </section>
     </main>
 

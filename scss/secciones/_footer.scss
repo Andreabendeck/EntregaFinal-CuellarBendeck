@@ -1,5 +1,6 @@
+
 .footer-flex {
-    background-image: linear-gradient(to bottom, #588157d7, #3a5a40 ) ;
+    background-image: linear-gradient(to bottom, #a3b18a, #dad7cd ) ;
     min-height: 15vh;
 }
 
@@ -9,21 +10,40 @@
 }
 
 .footer-flex h3 {
-    color:#a3b18a ;
+    font-size: 20px;
+    margin-left: 10px;
+    color:#3a5a40;
 }
 
 .footer-flex li {
+    margin-left: 10px;
     margin: 0.5rem;
 }
 
 .menu-footer li a{
-    color:#a3b18a;
+    color:#3a5a40;
     margin: 1rem;
 }
 .menu-footer li:hover{
-    background-color:#3a5a40;
+    background-color:
+    #a3b18a;
     transform: scale(1.2);
     }
 .redes {
     font-size: 25px;
+}
+
+/*Media query para dispositivos pequeños */
+@media (max-width: 425px) {
+    .footer-flex {
+        min-height: 15vh;
+    }
+}
+
+
+
+@media (max-width: 780px) {
+    .footer-flex {
+        min-height: 15vh;
+    }
 }
