@@ -188,6 +188,15 @@ li a.active, li a:hover {
 .Hacer-pedido- {
   background-color: #dad7cd; }
 
+@media (max-width: 720px) {
+  .grid-main {
+    min-height: 1100px;
+    min-width: 720px; }
+  .header-menu {
+    min-width: 720px; }
+  .footer-flex {
+    min-width: auto; } }
+
 .titulo-somos, .nuestrosproductos {
   height: 15vh;
   color: #3a5a40;
@@ -299,6 +308,11 @@ li a.active, li a:hover {
   position: relative;
   text-align-last: center;
   top: 22%; }
+
+@media (max-width: 720px) {
+  .main-index {
+    min-height: auto;
+    min-width: 720px; } }
 
 .accordion {
   max-width: 75vw;

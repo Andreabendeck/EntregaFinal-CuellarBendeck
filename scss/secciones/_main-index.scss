@@ -21,3 +21,10 @@
     top: 22%;
     
 }
+
+@media (max-width:720px) {
+    .main-index {
+        min-height: auto;        
+        min-width: 720px;
+    }
+}

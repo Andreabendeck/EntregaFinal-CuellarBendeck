@@ -54,3 +54,18 @@ background-color: white;
 .Hacer-pedido- {
     background-color:#dad7cd
 }
+
+@media (max-width:720px) {
+    .grid-main {
+        min-height: 1100px;
+        min-width: 720px;
+    }
+
+    .header-menu {
+        min-width: 720px;
+    }
+    
+    .footer-flex {
+        min-width: auto;
+    }
+}
